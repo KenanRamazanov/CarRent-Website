@@ -60,7 +60,7 @@ form input:focus{
     cursor: pointer;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
     form{
         display: flex;
         flex-direction: column;
