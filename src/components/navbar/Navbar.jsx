@@ -22,10 +22,10 @@ const Navbar = () => {
             <a href="/">Sign up</a>
         </li>
         <li>
-            <AiOutlineSearch size={25} style={{marginTop: '6px'}}></AiOutlineSearch>
+            <AiOutlineSearch size={25} style={{marginTop: '6px', cursor:'pointer'}}></AiOutlineSearch>
         </li>
         <li>
-            <AiOutlineUser size={25} style={{marginTop: '6px'}} ></AiOutlineUser>
+            <AiOutlineUser size={25} style={{marginTop: '6px', cursor:'pointer'}} ></AiOutlineUser>
         </li>
     
     </ul>
