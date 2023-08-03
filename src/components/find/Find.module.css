@@ -15,7 +15,7 @@
 
 .text_bg{
     background: rgba(173, 199, 255, 0.502);
-    height: 30px;
+    height: 50px;
     max-width: 650px;
     margin: auto;
     position: absolute;
@@ -25,7 +25,7 @@
 
 .text_bg p{
     font-size: 1.4rem;
-    margin-top: -0.6rem;
+    margin-top: 0.6rem;
 }
 
 .slider_container{
@@ -44,4 +44,10 @@
     border-top-right-radius: 10px ;
     height: 200px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+    .text_bg{
+        height: 70px;
+    }
 }
